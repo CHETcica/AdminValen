@@ -1,16 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
 import Menu from './Menu';
-import Dashboard from './Dashboard';
+import Dashboard1 from './Dashboard1';
+import Dashboard2 from './Dashboard2';
 import Footer from './Footer';
 
 function App() {
   return (
     <div class="wrapper">
+      
       <Header/>
       <Menu/>
-      <Dashboard/>
+        <Dashboard1/>
+        <Dashboard2/>
       <Footer/>
     </div>
   );
