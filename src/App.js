@@ -13,6 +13,10 @@ function App() {
       <Menu/>
       <Routes>
         <Route path="/" element={<Dashboard1 />} />
+        <Route path="/dashboard1" element={<Dashboard1 />} />
+        <Route path="/dashboard2" element={<Dashboard2 />} />
+        <Route path="/edit/:id" element={<Dashboard1/>}/>
+        <Route path="/ban/:id" element={<Dashboard1/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
