@@ -6,7 +6,7 @@ export default class Menu extends Component {
       <div>
         <aside className="main-sidebar sidebar-dark-primary elevation-4">
           {/* Brand Logo */}
-          <a href="index3.html" className="brand-link">
+          <a href="/" className="brand-link">
             <img
               src="dist/img/AdminLTELogo.png"
               alt="AdminLTE Logo"
@@ -52,46 +52,20 @@ export default class Menu extends Component {
                   </a>
                   <ul className="nav nav-treeview">
                     <li className="nav-item">
-                      <a href="./index.html" className="nav-link active">
+                      <a href="./dashboard1" className="nav-link active">
                         <i className="far fa-circle nav-icon" />
                         <p>Dashboard v1</p>
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a href="./index2.html" className="nav-link">
+                      <a href="./dashboard2" className="nav-link">
                         <i className="far fa-circle nav-icon" />
-                        <p>Dashboard v2</p>
+                        <p>User</p>
                       </a>
                     </li>
                   </ul>
                 </li>
-                <li className="nav-item">
-                  <a href="pages/widgets.html" className="nav-link">
-                    <i className="nav-icon fas fa-th" />
-                    <p>
-                      Widgets
-                      <span className="right badge badge-danger">New</span>
-                    </p>
-                  </a>
-                </li>
-                <li className="nav-item has-treeview">
-                  <a href="#" className="nav-link">
-                    <i className="nav-icon fas fa-copy" />
-                    <p>
-                      Layout Options
-                      <i className="fas fa-angle-left right" />
-                      <span className="badge badge-info right">6</span>
-                    </p>
-                  </a>
-                  <ul className="nav nav-treeview">
-                    <li className="nav-item">
-                      <a href="pages/layout/top-nav.html" className="nav-link">
-                        <i className="far fa-circle nav-icon" />
-                        <p>Top Navigation</p>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
+                
               </ul>
             </nav>
             {/* /.sidebar-menu */}
