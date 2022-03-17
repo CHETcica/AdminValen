@@ -63,6 +63,12 @@ export default class Menu extends Component {
                         <p>User</p>
                       </a>
                     </li>
+                    <li className="nav-item">
+                      <a href="./passtion" className="nav-link">
+                        <i className="far fa-circle nav-icon" />
+                        <p>Passtion</p>
+                      </a>
+                    </li>
                   </ul>
                 </li>
                 

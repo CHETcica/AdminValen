@@ -5,6 +5,7 @@ import Menu from './Menu';
 import Dashboard1 from './Dashboard1';
 import Dashboard2 from './Dashboard2';
 import Footer from './Footer';
+import Passtion from './pages/Passtion';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/dashboard2" element={<Dashboard2 />} />
         <Route path="/edit/:id" element={<Dashboard1/>}/>
         <Route path="/ban/:id" element={<Dashboard1/>}/>
+        <Route path="/passtion" element={<Passtion/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
