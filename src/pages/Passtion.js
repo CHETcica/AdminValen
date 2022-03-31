@@ -128,8 +128,8 @@ const Profilemanu = () => {
                                                     <th>{countuser}</th>
                                                     <td>{el.name}</td>
                                                     <td>{el.type}</td>
-                                                    <td><a href={"/edit/"} className="btn btn-warning">Edit</a></td>
-                                                    <td><a href={"/ban/"} className="btn btn-danger">Delede</a></td>
+                                                    <td><a href={"/editpassion"} className="btn btn-warning">Edit</a></td>
+                                                    <td><a href={"/ban/"} className="btn btn-danger">Delete</a></td>
                                                 </tr>
 
 

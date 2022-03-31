@@ -228,7 +228,7 @@ const Profilemanu = () => {
                           <td>{calculateAge(el.born)}</td>
                           <td>{el.interested}</td>
                           <td>{el.frind_id.length}</td>
-                          <td><a href={"/edit/" + el._id} className="btn btn-warning">Edit</a></td>
+                          <td><a href={"/editUser/" + el._id} className="btn btn-warning">Edit</a></td>
                           <td><a href={"/ban/" + el._id} className="btn btn-danger">Ban</a></td>
                         </tr>
                       );

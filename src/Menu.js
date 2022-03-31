@@ -69,9 +69,14 @@ export default class Menu extends Component {
                         <p>Passtion</p>
                       </a>
                     </li>
+                    <li className="nav-item">
+                      <a href="./Sexuls" className="nav-link">
+                        <i className="far fa-circle nav-icon" />
+                        <p>Sexuls</p>
+                      </a>
+                    </li>
                   </ul>
                 </li>
-                
               </ul>
             </nav>
             {/* /.sidebar-menu */}
