@@ -54,13 +54,19 @@ export default class Menu extends Component {
                     <li className="nav-item">
                       <a href="./dashboard1" className="nav-link active">
                         <i className="far fa-circle nav-icon" />
-                        <p>Dashboard v1</p>
+                        <p>Home</p>
                       </a>
                     </li>
                     <li className="nav-item">
                       <a href="./dashboard2" className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>User</p>
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a href="./dashboard3" className="nav-link">
+                        <i className="far fa-circle nav-icon" />
+                        <p>Sexul</p>
                       </a>
                     </li>
                   </ul>
