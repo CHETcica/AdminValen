@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Menu extends Component {
   render() {
@@ -52,26 +53,25 @@ export default class Menu extends Component {
                   </a>
                   <ul className="nav nav-treeview">
                     <li className="nav-item">
-                      <a href="./dashboard1" className="nav-link active">
+                      <Link to={"/dashboard1"} className="nav-link active">
                         <i className="far fa-circle nav-icon" />
                         <p>Home</p>
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="./dashboard2" className="nav-link">
+                      <Link to={"/dashboard2"} className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>User</p>
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="./dashboard3" className="nav-link">
+                      <Link to={"/dashboard3"} className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>Sexul</p>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
-                
               </ul>
             </nav>
             {/* /.sidebar-menu */}

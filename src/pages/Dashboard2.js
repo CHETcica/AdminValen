@@ -924,7 +924,7 @@ const Profilemanu = () => {
                           <td>{el.friendId.length}</td>
                           <td>
                             <a
-                              href={"/edit/" + el._id}
+                              href={"/edituser/" + el._id}
                               className="btn btn-warning"
                             >
                               Edit

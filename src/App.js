@@ -17,8 +17,8 @@ function App() {
         <Route path="/dashboard1" element={<Dashboard1 />} />
         <Route path="/dashboard2" element={<Dashboard2 />} />
         <Route path="/dashboard3" element={<Dashboard3 />} />
-        <Route path="/edit/:id" element={<Dashboard1/>}/>
-        <Route path="/ban/:id" element={<Dashboard1/>}/>
+        <Route path="/edituser/:id" element={<Dashboard2/>}/>
+        <Route path="/banuser/:id" element={<Dashboard2/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
