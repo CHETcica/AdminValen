@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+
 
 const Profilemanu = () => {
   const [users, setUsers] = useState({
@@ -923,20 +925,20 @@ const Profilemanu = () => {
                           <td>{el.interested}</td>
                           <td>{el.friendId.length}</td>
                           <td>
-                            <a
-                              href={"/edituser/" + el._id}
+                            <Link
+                              to={"/edituser/" + el._id}
                               className="btn btn-warning"
                             >
                               Edit
-                            </a>
+                            </Link>
                           </td>
                           <td>
-                            <a
-                              href={"/ban/" + el._id}
+                            <Link
+                              to={"/ban/" + el._id}
                               className="btn btn-danger"
                             >
                               Ban
-                            </a>
+                            </Link>
                           </td>
                         </tr>
                       );
