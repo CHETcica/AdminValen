@@ -21,7 +21,7 @@ function App() {
         <Route path="/edituser/:id" element={<EditUser/>}/>
         <Route path="/banuser/:id" element={<Dashboard2/>}/>
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </BrowserRouter>
   );
 }
